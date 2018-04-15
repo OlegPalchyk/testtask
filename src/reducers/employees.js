@@ -18,12 +18,16 @@ function initializeState() {
 export default function employees(state = initializeState(), action = {}) {
     switch (action.type) {
         case GET_EMPLOYEES_FAILURE : {
-            return state
+            let newState = Object.assign({}, state);
+            newState.loading = false;
+            newState.error = true;
+            return newState
         }
 
         case GET_EMPLOYEES_REQUEST : {
             let newState = Object.assign({}, state);
             newState.loading = true;
+            newState.error = false;
             return newState;
         }
         case GET_EMPLOYEES_SUCCESS : {

@@ -6,3 +6,21 @@
     justify-content: space-around;
     align-items: center;
 }
+.LoadingTime {
+    text-align: center;
+    font-size: 14px;
+}
+.Error {
+    text-align: center;
+    color : red;
+}
+.Error button {
+    font-size: 16px;
+    border: none;
+    background: red;
+    color : #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: auto;
+    cursor: pointer;
+}

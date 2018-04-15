@@ -1,0 +1,22 @@
+.OrderWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Select {
+    min-width: 200px;
+    max-width: 30%;
+    margin-right: 15px;
+}
+
+.OrderChoose {
+    min-width: 150px;
+    font-size: 16px;
+    border: none;
+    background: #37da37;
+    border-radius: 10px;
+    padding: 8px;
+    margin: auto;
+    cursor: pointer;
+}
