@@ -2,7 +2,7 @@
 
 To run this project locally, you need
 
-git clone --recursive https://github.com/OlegPalchyk/testtask.git <folder_name>
+git clone https://github.com/OlegPalchyk/testtask.git <folder_name>
 
 cd <folder_name>
 
