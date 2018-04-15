@@ -2,7 +2,9 @@
 
 To run this project locally, you need
 
-install node + npm -> https://nodejs.org/uk/
+git clone --recursive https://github.com/OlegPalchyk/testtask.git <folder_name>
+
+cd <folder_name>
 
 run commands :
 
