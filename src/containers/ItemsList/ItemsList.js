@@ -5,6 +5,7 @@ import {connect} from "react-redux";
 import {getEmployees} from "../../actions/employees";
 import OrderComponent from "../../components/MainPage/ItemList/OrderComponent/OrderComponent";
 import Wrapper from '../../hoc/wrapper';
+import PropTypes from 'prop-types';
 
 
 class ItemsList extends Component{
@@ -96,4 +97,15 @@ function mapStateToProps(state) {
     return {employees}
 }
 export default connect(mapStateToProps)(ItemsList);
+
+ItemsList.propTypes = {
+  employees: PropTypes.shape(
+      {
+          data: PropTypes.array,
+          loaded: PropTypes.bool,
+          loading : PropTypes.bool,
+          error : PropTypes.bool
+      }
+  )
+};
 
