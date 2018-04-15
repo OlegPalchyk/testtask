@@ -6,7 +6,20 @@
     position: relative;
     color : #000000;
     text-transform: uppercase;
+    padding-top: 100%;
 }
 .WorkerImage img {
     width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+.WorkerImage span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
 }
