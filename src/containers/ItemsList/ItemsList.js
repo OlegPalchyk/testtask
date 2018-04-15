@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import classes from './ItemsList.css';
-import Worker from "./Worker/Worker";
+import Worker from "../../components/MainPage/ItemList/Worker/Worker";
 import {connect} from "react-redux";
-import {getEmployees} from "../../../actions/employees";
-import OrderComponent from "./OrderComponent/OrderComponent";
-import Wrapper from '../../../hoc/wrapper';
+import {getEmployees} from "../../actions/employees";
+import OrderComponent from "../../components/MainPage/ItemList/OrderComponent/OrderComponent";
+import Wrapper from '../../hoc/wrapper';
 
 
 class ItemsList extends Component{
