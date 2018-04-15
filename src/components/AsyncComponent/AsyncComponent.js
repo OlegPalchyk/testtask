@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SimpleLoader from "../components/SimpleLoader/SimpleLoader";
+import SimpleLoader from "../SimpleLoader/SimpleLoader";
 
 export default function asyncComponent(importComponent) {
     class AsyncComponent extends Component {
