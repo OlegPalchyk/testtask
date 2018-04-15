@@ -1,0 +1,20 @@
+.WorkerInfo {
+    font-size: 16px;
+    color: #000000;
+
+}
+.WorkerInfo p{
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+.WorkerName {
+    font-weight: bold;
+}
