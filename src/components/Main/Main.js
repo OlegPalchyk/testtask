@@ -6,7 +6,7 @@ import About from "../About/About";
 import NotFoundRoute from "../NotFoundRoute/NotFoundRoute";
 
 const main = (props) => {
-    return <main>
+    return <main className={classes.Main}>
         <Switch>
             <Route exact path='/' component={MainPage}/>
             <Route exact path='/about' component={About}/>
